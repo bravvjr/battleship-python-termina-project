@@ -261,8 +261,10 @@ for player in players:
     player.place_ships()
 
 one_player_game()    
-
+#count players
 if len(players) == 1:
     one_player_game()
 else:
     two_player_game()
+     
+      
